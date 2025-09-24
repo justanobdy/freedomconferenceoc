@@ -1,0 +1,81 @@
+.top-div {
+    background: url("img/Return-208.jpg");
+    height: 100%;
+    width: 90%;
+    text-align: center;
+    background-size: auto 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: whitesmoke;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Inter';
+    font-size: 1rem;
+}
+
+.FreedomFancyFont {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #feead0;
+}
+
+.topbar {
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: #feead0;
+    border-bottom: rgb(50, 50, 50) solid 3px;
+    /*
+    background-color: #5677eb;
+    border-bottom: #383838 solid 3px;
+    */
+}
+
+.topbar-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.content1 {
+    margin: 2rem;
+    text-align: center;
+}
+
+.pastor-image-small {
+    width: 20%;
+}
+
+.main-content {
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.main-content p, a, h6 {
+    margin-left: 2rem;
+}
+
+.icons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  body {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+}
